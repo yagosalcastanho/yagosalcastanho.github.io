@@ -1,0 +1,72 @@
+[
+  {
+    "id": "sales-etl-pipeline",
+    "name": "Sales ETL Pipeline",
+    "description": "Pipeline ETL automatizado de ponta a ponta para análise de dados de vendas. Extração via API, transformação com Pandas e carga no PostgreSQL orquestrada pelo Apache Airflow.",
+    "url": "https://github.com/yagosalcastanho/sales-etl-pipeline",
+    "icon": "⚙️",
+    "category": "pipelines",
+    "featured": true,
+    "stack": ["Python", "Airflow", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": "sales-dashboard",
+    "name": "Sales Dashboard",
+    "description": "Dashboard comercial completo com pipeline SQL → Python → Power BI. Requisitos formais, regras de negócio, testes com pytest e 4 páginas analíticas com DAX.",
+    "url": "https://github.com/yagosalcastanho/sales-dashboard",
+    "icon": "📊",
+    "category": "bi",
+    "featured": true,
+    "stack": ["Power BI", "Python", "PostgreSQL", "pytest"]
+  },
+  {
+    "id": "n8n-sales-report",
+    "name": "N8N Sales Report Automation",
+    "description": "Automação de relatório diário de vendas. N8N aciona Flask via HTTP, Python consulta PostgreSQL, gera HTML e envia por Gmail automaticamente às 07:00.",
+    "url": "https://github.com/yagosalcastanho/n8n-sales-report",
+    "icon": "🤖",
+    "category": "pipelines",
+    "featured": true,
+    "stack": ["N8N", "Python", "Flask", "Gmail API"]
+  },
+  {
+    "id": "pyspark-fraud-analysis",
+    "name": "PySpark Fraud Analysis",
+    "description": "Análise de 1,29 milhão de transações de cartão de crédito com PySpark. Joins, window functions, particionamento e persistência no PostgreSQL com storytelling analítico completo.",
+    "url": "https://github.com/yagosalcastanho/pyspark-fraud-analysis",
+    "icon": "🔍",
+    "category": "pipelines",
+    "featured": false,
+    "stack": ["PySpark", "Jupyter", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": "kafka-log-pipeline",
+    "name": "Kafka Log Pipeline",
+    "description": "Streaming de logs de microsserviços em tempo real. Producer simula 5 serviços com taxas de erro configuradas. Consumer processa, persiste e gera alertas automáticos.",
+    "url": "https://github.com/yagosalcastanho/kafka-log-pipeline",
+    "icon": "📡",
+    "category": "streaming",
+    "featured": false,
+    "stack": ["Kafka", "Python", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": "churn-prediction",
+    "name": "Churn Prediction",
+    "description": "Modelo de ML para prever cancelamento de clientes. Logistic Regression e Random Forest com AUC-ROC de 0.84. Feature engineering, class balancing e interpretabilidade.",
+    "url": "https://github.com/yagosalcastanho/churn-prediction",
+    "icon": "🤖",
+    "category": "ml",
+    "featured": false,
+    "stack": ["Python", "scikit-learn", "pandas", "Jupyter"]
+  },
+  {
+    "id": "flappybird-ai",
+    "name": "Flappy Bird AI",
+    "description": "Projeto de machine learning em Python para treinar uma IA a jogar Flappy Bird. Código containerizado com Docker.",
+    "url": "https://github.com/yagosalcastanho/FlappybirdAI",
+    "icon": "🎮",
+    "category": "ml",
+    "featured": false,
+    "stack": ["Python", "ML", "Docker"]
+  }
+]

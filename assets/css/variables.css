@@ -1,0 +1,20 @@
+:root {
+  --bg:        #0A0E1A;
+  --surface:   #1E2A45;
+  --surface2:  #162035;
+  --blue:      #3B82F6;
+  --blue-dark: #2563EB;
+  --green:     #10B981;
+  --text:      #F8FAFC;
+  --muted:     #94A3B8;
+  --border:    rgba(59, 130, 246, 0.15);
+  --font-disp: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --nav-height: 64px;
+  --max-width: 1100px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --transition: 0.2s ease;
+}
